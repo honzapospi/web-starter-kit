@@ -1,0 +1,15 @@
+# compozition
+	- Application\PresenterConfigurator
+	- class: Application\TemplateControl
+	  arguments: [%appDir%/templates]
+	- Application\Translator
+	- Application\ControlConfigurator
+	- Application\LayoutControl
+# template maker
+	- JP\TemplateMaker\FileCreator
+	- JP\TemplateMaker\TemplateMaker
+	- class: JP\TemplateMaker\Bar
+	  setup:
+	  	- setTemplateMaker(@JP\TemplateMaker\TemplateMaker)
+extensions:
+	composition: JP\Composition\CompositionExtension
