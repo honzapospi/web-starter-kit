@@ -16,9 +16,11 @@ composer require honzapospi/template-maker
 mv ./vendor/honzapospi/nette-tester-helper/tests ./
 npm init
 npm install --save-dev gulp gulp-concat gulp-less gulp-uglify gulp-cssmin bower
-mv ../web-starter-kit/gulpfile.js project/
+mv ../gulpfile.js ./
 npm install --save-dev bower
 bower install jquery bootstrap git://github.com/dimsemenov/Magnific-Popup.git --save-dev
+
+
 
 
 
