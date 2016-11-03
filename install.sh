@@ -12,7 +12,7 @@ git clone --depth=1 https://github.com/dg/ftp-deployment.git
 cd project
 composer require honzapospi/nette-tester-helper
 composer require honzapospi/nette-composition
-composet require honzapospi/template-maker
+composer require honzapospi/template-maker
 mv ./vendor/honzapospi/nette-tester-helper/tests ./
 npm init
 npm install --save-dev gulp gulp-concat gulp-less gulp-uglify gulp-cssmin bower
