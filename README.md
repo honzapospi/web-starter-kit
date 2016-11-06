@@ -24,7 +24,8 @@ sh install.sh
 
 ## Before start
 
-- copy and paste everything from  
+- copy and paste everything from file starter-kit.neon to app/config/config.neon or include file starter-kit.neon to your configuration in bootstrap.php
+- change default route to 'Homepage:Homepage:default' in app/router/RouterFactory.php
 
 ## Start Development
 

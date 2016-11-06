@@ -36,6 +36,8 @@ class TemplateControl extends \Nette\Object implements ITemplateControl {
 			} elseif(substr($part, -9) == 'Presenter'){
 				$template[] = $part;
 				break;
+			} elseif(!$control instanceof Presenter){
+				$template[] = $part;
 			}
 		}
 		$templateFilename = implode(DIRECTORY_SEPARATOR, $template);
