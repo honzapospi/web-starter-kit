@@ -7,6 +7,7 @@
     - [Nette Tester Helper](https://github.com/honzapospi/nette-tester-helper)
     - [Nette Composition](https://github.com/honzapospi/nette-composition)
     - [Nette Template Maker](https://github.com/honzapospi/template-maker)
+    - [SQL Builder](https://github.com/honzapospi/php-sql-builder)
 - Client Site  
     - [jQuery](https://jquery.com/)
     - [Bootstrap](http://getbootstrap.com/)

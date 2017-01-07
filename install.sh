@@ -13,6 +13,7 @@ cd project
 composer require honzapospi/nette-tester-helper
 composer require honzapospi/nette-composition
 composer require honzapospi/template-maker
+composer require honzapospi/sql-builder
 mv ./vendor/honzapospi/nette-tester-helper/tests ./
 npm init
 npm install --save-dev gulp gulp-concat gulp-less gulp-uglify gulp-cssmin bower
