@@ -19,8 +19,8 @@ npm init
 npm install --save-dev gulp gulp-concat gulp-less gulp-uglify gulp-cssmin bower
 mv ../gulpfile.js ./
 npm install --save-dev bower
-bower init
-bower install jquery bootstrap git://github.com/dimsemenov/Magnific-Popup.git --save-dev
+node_modules/bower/bin/bower init
+node_modules/bower/bin/bower install jquery bootstrap git://github.com/dimsemenov/Magnific-Popup.git --save-dev
 rm README.md
 rm install.sh
 rm -R .git/

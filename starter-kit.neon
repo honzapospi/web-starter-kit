@@ -7,7 +7,8 @@
 	- Application\LayoutControl
 # template maker
 	- JP\TemplateMaker\FileCreator
-	- JP\TemplateMaker\TemplateMaker
+	- class: JP\TemplateMaker\TemplateMaker
+	  arguments: [%appDir%/templates]
 	- class: JP\TemplateMaker\Bar
 	  setup:
 	  	- setTemplateMaker(@JP\TemplateMaker\TemplateMaker)
