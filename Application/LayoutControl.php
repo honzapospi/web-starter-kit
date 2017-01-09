@@ -19,7 +19,7 @@ use Tracy\Debugger;
 class LayoutControl extends \JP\Composition\UI\LayoutControl implements ILayoutControl {
 
 	public function setupLayout(ITemplate $template, Presenter $presenter) {
-		$template->min = Debugger::$productionMode ? '.mim' : '';
+		$template->min = Debugger::$productionMode ? '.min' : '';
 	}
 
 

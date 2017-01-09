@@ -14,6 +14,8 @@ composer require honzapospi/nette-tester-helper
 composer require honzapospi/nette-composition
 composer require honzapospi/template-maker
 composer require honzapospi/sql-builder
+composer require honzapospi/translator
+composer require honzapospi/navigator
 mv ./vendor/honzapospi/nette-tester-helper/tests ./
 npm init
 npm install --save-dev gulp gulp-concat gulp-less gulp-uglify gulp-cssmin bower
