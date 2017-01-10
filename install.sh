@@ -5,6 +5,11 @@
 #
 #
 composer create-project nette/web-project project
+cd project
+rm -R vendor
+rm composer.lock
+composer update
+cd ..
 mv modules project/app/
 mv templates project/app/
 mv Application project/app/
