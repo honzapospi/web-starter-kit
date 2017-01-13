@@ -13,7 +13,7 @@ cd ..
 mv modules project/app/
 mv templates project/app/
 mv Application project/app/
-git clone --depth=1 https://github.com/dg/ftp-deployment.git
+composer create-project dg/ftp-deployment
 cd project
 composer require honzapospi/nette-tester-helper
 composer require honzapospi/nette-composition
