@@ -9,6 +9,8 @@ cd project
 rm -R vendor
 rm composer.lock
 composer update
+chmod 777 temp
+chmod 777 log
 cd ..
 mv modules project/app/
 mv templates project/app/
