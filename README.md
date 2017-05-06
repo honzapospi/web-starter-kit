@@ -30,7 +30,7 @@ sh install.sh
 
 ## Start Development
 
-- run `gulp`
+- run `./node_modules/gulp/bin/gulp.js`
 - navigate your browser to [localhost/path/to/www/dir](http://localhost)
 - start develop
 
