@@ -7,8 +7,10 @@
 composer create-project nette/web-project project
 cd project
 rm -R vendor
+rm composer.json
 rm composer.lock
-composer update
+mv ../composer.json .
+composer install
 chmod 777 temp
 chmod 777 log
 cd ..
